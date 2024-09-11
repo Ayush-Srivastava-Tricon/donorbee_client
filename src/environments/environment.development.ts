@@ -1,4 +1,4 @@
 export const environment = {
     production:false,
-    baseUrl:'https://donorbee.netlify.app/.netlify/functions/server'
+    baseUrl:'https://donorbee_server.netlify.app/.netlify/functions/server'
 };
