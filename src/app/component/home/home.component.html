@@ -1,0 +1,62 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand mx-2" routerLink="/">Donor Bee</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link mx-2" routerLink="/find-donors">Find Donors</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mx-2" routerLink="/register-donor">Register as Donor</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero d-flex align-items-center text-center">
+    <div class="container">
+      <h1>Save Lives, Donate Blood</h1>
+      <p>Your blood donation can save lives and help those in emergencies.</p>
+      <div class="mt-4">
+        <a routerLink="/find-donors" class="btn btn-danger btn-lg">Find Donors</a>
+        <a routerLink="/register-donor" class="btn btn-outline-danger btn-lg">Register as Donor</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Why Donate Blood?</h2>
+          <p>Every 2 seconds, someone needs blood. By donating blood, you can help save up to 3 lives with just one donation. It's safe, quick, and makes a big difference in the lives of those in need.</p>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="../../../assets/donate.jpg" width="400" height="300" class="img-fluid rounded" alt="Donate Blood">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta bg-danger text-white py-5 text-center">
+    <div class="container">
+      <h2 class="mb-4">Ready to make a difference?</h2>
+      <a routerLink="/register-donor" class="btn btn-light btn-lg">Become a Donor Today</a>
+    </div>
+  </section>
+
+  <section class="blood-donation-info ">
+    <app-blood-donation-info></app-blood-donation-info>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-light mt-4 py-4 text-center">
+    <div class="container">
+      <p>&copy; 2024 Donor Bee | All Rights Reserved</p>
+    </div>
+  </footer>
